@@ -1,0 +1,28 @@
+.story-group {
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.story-thumbnail {
+  border: 4px solid #ffd700;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding: 4px;
+  margin-bottom: 8px;
+  overflow: hidden;
+}
+
+.story-thumbnail img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.story-name {
+  font-size: 14px;
+}
