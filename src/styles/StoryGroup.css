@@ -40,3 +40,23 @@
   max-width: 100%;
   word-break: break-word;
 }
+
+/* Responsive for small mobile screens */
+@media (max-width: 600px) {
+  .story-group {
+    width: 100px;
+    height: auto;
+    margin: 6px;
+    padding: 6px;
+  }
+
+  .story-thumbnail {
+    width: 80px;
+    height: 80px;
+    padding: 4px;
+  }
+
+  .story-name {
+    font-size: 9px;
+  }
+}
