@@ -1,28 +1,42 @@
 .story-group {
-  width: 120px;
+  width: 150px;
+  height: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   cursor: pointer;
+  margin: 10px;
+  padding: 10px;
 }
 
 .story-thumbnail {
-  border: 4px solid #ffd700;
+  width: 120px;
+  height: 120px;
+  border: 3px solid #ffd700;
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  padding: 4px;
-  margin-bottom: 8px;
+  background-color: #fff;
   overflow: hidden;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .story-thumbnail img {
   width: 100%;
   height: 100%;
-  border-radius: 50%;
   object-fit: cover;
+  border-radius: 50%;
+  display: block;
 }
 
 .story-name {
-  font-size: 14px;
+  font-size: 10px;
+  font-weight: 700;
+  color: #000;
+  margin-top: 6px;
+  line-height: 1.2;
+  max-width: 100%;
+  word-break: break-word;
 }
